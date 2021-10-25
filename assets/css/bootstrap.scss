@@ -1,0 +1,20 @@
+
+$theme-colors: (
+  "primary": #CC1D2E,
+);
+
+$custom-colors: (
+  "tech-main": #CC1D2E,
+  "tech-primary": #0d6efd,
+  "tech-secondary": #6c757d,
+  "tech-success": #198754,
+  "tech-info": #0dcaf0,
+  "tech-warning": #ffc107,
+  "tech-danger": #dc3545,
+  "tech-light": #f8f9fa,
+  "tech-dark": #212529,
+);
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "bootstrap-5.1.0/scss/bootstrap";
+
